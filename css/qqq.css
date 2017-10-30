@@ -1,0 +1,120 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-25 10:14:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-25 10:15:11
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+#app{
+	width: 100%;
+	height: 70rem;
+	background: yellow;
+}
+.header>img{
+	width: 100%;
+	height: .4rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headbox{
+	width: 100%;
+	height: .4rem;
+}
+.dhl-y{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	background: white;
+}
+.dhl-y>p{
+	font-size: 20px;
+}
+.banner{
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+.bannerBox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bannerBox>img{
+   position: absolute;
+    top:0;
+    left:0;
+}
+.banner .lbd{
+    width: 4rem;
+    height: .2rem;
+    position: absolute;
+    right:0;
+    left:0;
+    bottom: .2rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner .lbd>li{
+    width: .4rem;
+    height: .1rem;
+    background: rgba(255,255,255,.9);
+    border-radius: .2rem;
+}
+.banner .lbd>li.active{
+    background: rgba(255,255,255,.4);
+
+}
+.xialan{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+.xialanxiao{
+	width: 100%;
+	height: 2.5rem;
+	background: yellow;
+}
+.xialanxiao>img{
+	width: 3.5rem;
+	height: 90%;
+	padding-left:.3rem;
+	padding-top: .25rem;
+	position: relative;
+}
+.xialanyou{
+	width: 3.5rem;
+	height: 90%;
+	padding-right:.8rem;
+	padding-top: .25rem;
+	position: relative;
+	line-height: .5rem;
+	float: right;
+	
+}
+.xialanyou>span{
+    font-size: 0.3rem;
+    padding-right: .7rem;
+    float: left;
+    
+}
+.xialanyou>p{
+	font-size: 0.2rem;
+
+    float: left;
+}
+

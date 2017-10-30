@@ -1,0 +1,25 @@
+/*
+* @Author: MACHENIKE
+* @Date:   2017-10-16 11:42:19
+* @Last Modified by:   Bling蹄蹄酱
+* @Last Modified time: 2017-10-18 23:14:01
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+input,button{
+	outline: none;
+	-webkit-tap-highlight: rgba(0,0,0,0);
+}
